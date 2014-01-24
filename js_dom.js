@@ -6,6 +6,8 @@ document.getElementsByTagName('body')[0].style.backgroundColor = "red"
  
 //RELEASE 1:
   //Add code here to select elements of the DOM 
+document.getElementsByTagName('body').style.backgroundColor = "red"
+document.querySelector('#mybody').style.backgroundColor = "red"
  
 //RELEASE 2: 
   // Add code here to manipulate the DOM.
