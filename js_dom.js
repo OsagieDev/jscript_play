@@ -2,7 +2,7 @@ window.onload= function(){
  
 //RELEASE 0: Link this script to the js_dom.html file and analyze what this code does. 
  
-document.getElementsByTagName('body')[0].style.backgroundColor = "pink"
+document.getElementsByTagName('body')[0].style.backgroundColor = "red"
  
 //RELEASE 1:
   //Add code here to select elements of the DOM 
