@@ -8,13 +8,16 @@ document.getElementsByTagName('body')[0].style.backgroundColor = "red"
   //Add code here to select elements of the DOM 
 
 document.querySelector('#mybody').style.backgroundColor = "red"
-document.getElementsByTagName("li")[2].innerHTML="innerHTML MODIFIED THIS LIST ITEM";
+document.getElementById("mybody").style.backgroundColor= "red"
+document.getElementsByTagName("body")[0].style.backgroundColor="red"
+
  
 //RELEASE 2: 
   // Add code here to manipulate the DOM.
 document.getElementById("larger").style.fontSize = "40px"
 document.getElementById('mytable').style.borderColor = "black"
 document.getElementById("mytable").style.borderStyle="solid"
+document.getElementsByTagName("li")[2].innerHTML="innerHTML MODIFIED THIS LIST ITEM";
 
  
 //RELEASE 3: Event Listener
@@ -22,7 +25,7 @@ document.getElementById("mytable").style.borderStyle="solid"
 
 document.getElementById("color-switcher").addEventListener('click', function(){
   console.log('Color Switched!!')
-  document.getElementById("mytable").style.backgroundColor="white"
+  document.getElementById("mytable").style.backgroundColor="blue"
 }) 
 
 //RELEASE 4 : Experiment on your own
