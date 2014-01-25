@@ -6,9 +6,9 @@ document.getElementsByTagName('body')[0].style.backgroundColor = "red"
  
 //RELEASE 1:
   //Add code here to select elements of the DOM 
-//document.getElementsByTagName('ul')[1] list.style.backgroundColor = "red"
+
 document.querySelector('#mybody').style.backgroundColor = "red"
-document.getElementsByTagName("li")[0].innerHTML="Milk";
+document.getElementsByTagName("li")[2].innerHTML="innerHTML MODIFIED THIS LIST ITEM";
  
 //RELEASE 2: 
   // Add code here to manipulate the DOM.
@@ -36,10 +36,10 @@ document.getElementById("shower").addEventListener('click', function(){
   console.log('Showing Stuff')
   document.getElementById('hidenseek').style.visibility='visible'
 })
- 
- 
- 
- 
+
+var str = document.getElementsByClassName('goUpper')[0].innerHTML
+document.getElementsByClassName('goUpper')[0].innerHTML = str.toUpperCase()
+console.log(str)
  
  
 }  // end of the window.onload function do not remove or write DOM manipulation below this.
